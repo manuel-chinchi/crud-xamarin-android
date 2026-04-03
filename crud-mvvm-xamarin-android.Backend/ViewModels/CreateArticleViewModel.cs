@@ -7,6 +7,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using crud_mvvm_xamarin_android.Backend.Models;
 using crud_mvvm_xamarin_android.Backend.Services;
+using crud_mvvm_xamarin_android.Backend.Helpers;
 
 namespace crud_mvvm_xamarin_android.Backend.ViewModels
 {
@@ -93,10 +94,26 @@ namespace crud_mvvm_xamarin_android.Backend.ViewModels
 
         private void Save()
         {
-            Category category = _categoryService.GetCategories().OrderBy(c => c.Name).ToList()[SelectedCategoryIndex];
-            _article.Category = category;
-            _article.CategoryId = category.Id;
-            _articleService.AddArticle(_article);
+            var categories = _categoryService.GetCategories();
+            if (categories.Count()==0)
+            {
+                _articleService.AddArticle(new Article
+                {
+                    Category = new Category()
+                    {
+                        Id = CategoryHelper.ID_EMPTY_CATEGORY,
+                        Name = CategoryHelper.NAME_EMPTY_CATEGORY
+                    },
+                    CategoryId = CategoryHelper.ID_EMPTY_CATEGORY
+                });
+            }
+            else
+            {
+                Category category = categories.OrderBy(c => c.Name).ToList()[SelectedCategoryIndex];
+                _article.Category = category;
+                _article.CategoryId = category.Id;
+                _articleService.AddArticle(_article);
+            }
 
             SaveOkEvent?.Invoke("Article created successfully!");
         }
