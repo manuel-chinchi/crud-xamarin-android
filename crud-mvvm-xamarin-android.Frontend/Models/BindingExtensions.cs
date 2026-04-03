@@ -13,7 +13,7 @@ using System.IO;
 using System.Windows.Input;
 using Android.Widget;
 
-namespace crud_mvvm_xamarin_android.Frontend.Models
+namespace crud_xamarin_android.Frontend.Models
 {
     public static class BindingExtensions
     {

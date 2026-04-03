@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace crud_mvvm_xamarin_android.Backend.ViewModels
+namespace crud_xamarin_android.Backend.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

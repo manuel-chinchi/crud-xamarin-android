@@ -4,8 +4,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using crud_mvvm_xamarin_android.Backend.Models;
-using crud_mvvm_xamarin_android.Backend.Services;
+using crud_xamarin_android.Backend.Models;
+using crud_xamarin_android.Backend.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace crud_mvvm_xamarin_android.Backend.ViewModels
+namespace crud_xamarin_android.Backend.ViewModels
 {
     public class EditArticleViewModel : BaseViewModel
     {

@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
-using crud_mvvm_xamarin_android.Backend.Models;
-using crud_mvvm_xamarin_android.Backend.Services;
-using crud_mvvm_xamarin_android.Backend.Helpers;
+using crud_xamarin_android.Backend.Models;
+using crud_xamarin_android.Backend.Services;
+using crud_xamarin_android.Backend.Helpers;
 
-namespace crud_mvvm_xamarin_android.Backend.ViewModels
+namespace crud_xamarin_android.Backend.ViewModels
 {
     public class CreateArticleViewModel : BaseViewModel
     {

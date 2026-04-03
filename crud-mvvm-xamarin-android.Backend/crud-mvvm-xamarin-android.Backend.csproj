@@ -10,8 +10,8 @@
     <TemplateGuid>{9ef11e43-1701-4396-8835-8392d57abb70}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>crud_mvvm_xamarin_android.Backend</RootNamespace>
-    <AssemblyName>crud-mvvm-xamarin-android.Backend</AssemblyName>
+    <RootNamespace>crud_xamarin_android.Backend</RootNamespace>
+    <AssemblyName>crud-xamarin-android.Backend</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>

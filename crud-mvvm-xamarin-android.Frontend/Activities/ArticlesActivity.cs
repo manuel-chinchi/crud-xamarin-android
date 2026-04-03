@@ -10,12 +10,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using AndroidX.AppCompat.App;
-using crud_mvvm_xamarin_android.Frontend.Adapters;
-using crud_mvvm_xamarin_android.Frontend.Activities.Contracts;
-using crud_mvvm_xamarin_android.Backend.ViewModels;
-using crud_mvvm_xamarin_android.Frontend.Models;
+using crud_xamarin_android.Frontend.Adapters;
+using crud_xamarin_android.Frontend.Activities.Contracts;
+using crud_xamarin_android.Backend.ViewModels;
+using crud_xamarin_android.Frontend.Models;
 
-namespace crud_mvvm_xamarin_android.Frontend.Activities
+namespace crud_xamarin_android.Frontend.Activities
 {
     [Activity(Label = "Articles")]
     public class ArticlesActivity : AppCompatActivity, IBaseActivity

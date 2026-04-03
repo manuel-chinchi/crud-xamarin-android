@@ -10,8 +10,8 @@
     <TemplateGuid>{122416d6-6b49-4ee2-a1e8-b825f31c79fe}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>crud_mvvm_xamarin_android.Frontend</RootNamespace>
-    <AssemblyName>crud-mvvm-xamarin-android.Frontend</AssemblyName>
+    <RootNamespace>crud_xamarin_android.Frontend</RootNamespace>
+    <AssemblyName>crud-xamarin-android.Frontend</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>

@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace crud_mvvm_xamarin_android.Frontend.Helpers
+namespace crud_xamarin_android.Frontend.Helpers
 {
     public static class GaleryHelper
     {

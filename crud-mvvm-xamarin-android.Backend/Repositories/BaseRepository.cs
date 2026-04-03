@@ -4,7 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using crud_mvvm_xamarin_android.Backend.Models;
+using crud_xamarin_android.Backend.Models;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Text;
 using static System.Environment;
 
-namespace crud_mvvm_xamarin_android.Backend.Repositories
+namespace crud_xamarin_android.Backend.Repositories
 {
     internal class BaseRepository
     {

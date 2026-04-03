@@ -1,13 +1,13 @@
 ﻿using System;
-using crud_mvvm_xamarin_android.Backend.Models;
-using crud_mvvm_xamarin_android.Backend.Services;
+using crud_xamarin_android.Backend.Models;
+using crud_xamarin_android.Backend.Services;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace crud_mvvm_xamarin_android.Backend.ViewModels
+namespace crud_xamarin_android.Backend.ViewModels
 {
     public class CreateCategoryViewModel : BaseViewModel
     {

@@ -5,15 +5,15 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
-using crud_mvvm_xamarin_android.Backend.ViewModels;
-using crud_mvvm_xamarin_android.Frontend.Activities.Contracts;
-using crud_mvvm_xamarin_android.Frontend.Models;
+using crud_xamarin_android.Backend.ViewModels;
+using crud_xamarin_android.Frontend.Activities.Contracts;
+using crud_xamarin_android.Frontend.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace crud_mvvm_xamarin_android.Frontend.Activities
+namespace crud_xamarin_android.Frontend.Activities
 {
     [Activity(Label = "")]
     public class CreateCategoryActivity : AppCompatActivity, IBaseActivity
