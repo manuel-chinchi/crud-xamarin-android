@@ -37,68 +37,61 @@ una aplicación Xamarin para Android ver [este enlace](https://github.com/manuel
 
 ## Capturas
 
-<div>
-	<table style="display: inline-table; width: 100%">
-		<!-- <caption>table title and/or explanatory text</caption> -->
-		<thead>
-			<tr>
-				<th>Pantalla</th>
-				<th>Descripción</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<br>
-					<p align="center">
-						<img src=".readme/Screenshot_1753223961.png" alt="menu" width="324" height="576">
-					</p>
-					<br>			
-				</td>
-				<td>
-					<p align="center">Menú principal</p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<br>
-					<p align="center">
-						<img src=".readme/Screenshot_1753225229.png" alt="menu" width="324" height="576">
-					</p>
-					<br>		
-				</td>
-				<td>
-					<p align="center">Lista de artículos</p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<br>
-					<p align="center">
-						<img src=".readme/Screenshot_1753225247.png" alt="menu" width="324" height="576">
-					</p>
-					<br>
-				</td>
-				<td>
-					<p align="center">Formulario crear artículo</p>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<br>
-					<p align="center">
-						<img src=".readme/Screenshot_1753225254.png" alt="menu" width="324" height="576">
-					</p>
-					<br>
-				</td>
-				<td>
-					<p align="center">Lista de categorías</p>
-				</td>
-			</tr>
-		</tbody>
-	</table>	
-</div>
-
+<table>
+  <tr>
+    <th align="center">
+      <img width="500" height="1">
+      <p>Pantalla</p>
+    </th>
+    <th align="center">
+      <img width="500" height="1">
+      <p>Descripción</p>
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <!-- REMOVE THE BACKSLASHES -->
+      <p align="center">
+        <img src=".readme/Screenshot_1753223961.png" alt="menu" width="324" height="576">
+      </p>
+    </td>
+    <td>
+      <!-- REMOVE THE BACKSLASHES -->
+      <p align="center">Menú principal</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p align="center">
+        <img src=".readme/Screenshot_1753225229.png" alt="menu" width="324" height="576">
+      </p>
+    </td>
+    <td align="center">
+      <p align="center">Lista de artículos</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p align="center">
+        <img src=".readme/Screenshot_1753225247.png" alt="menu" width="324" height="576">
+      </p>
+    </td>
+    <td align="center">
+      <p align="center">Formulario crear artículo</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p align="center">
+        <img src=".readme/Screenshot_1753225254.png" alt="menu" width="324" height="576">
+      </p>
+    </td>
+    <td align="center">
+      <p align="center">Lista de categorías</p>
+    </td>
+  </tr>
+</table>
+	
 ## Plataformas soportadas
 
 Android 11 o superior
