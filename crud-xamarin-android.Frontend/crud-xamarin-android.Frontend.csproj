@@ -132,7 +132,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\crud-mvvm-xamarin-android.Backend\crud-mvvm-xamarin-android.Backend.csproj">
+    <ProjectReference Include="..\crud-xamarin-android.Backend\crud-xamarin-android.Backend.csproj">
       <Project>{d0e0f415-d276-44e6-a781-f3837deccd23}</Project>
       <Name>crud-mvvm-xamarin-android.Backend</Name>
     </ProjectReference>
